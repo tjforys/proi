@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dateTest.dir/UnitTest.cpp.o CMakeFiles/dateTest.dir/fun_definitions.cpp.o -o dateTest  /usr/local/lib/libgtest.a -lgtest_main -lpthread 

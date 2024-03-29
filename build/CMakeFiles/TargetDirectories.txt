@@ -1,0 +1,3 @@
+/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles/dateTest.dir
+/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles/edit_cache.dir
+/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles/rebuild_cache.dir

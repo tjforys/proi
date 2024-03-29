@@ -1,1 +1,1 @@
-Nie udało mi się zaimplementować testów jednostkowych, po wielu próbach vscode nie wykrywał mi potrzebnych plików, w podobny sposób nie udało mi się w vscodzie zkompilowac programu pracy domowej, natomiast pomyślnie został zkompilowany przy użyciu visual studio.
+Jest to poprawiona wersja pierwszego zadania, gdzie nie miałem wiedzy jak kompilować pliki w VSC i nie byłem w stanie zrobić testów jednostkowych. Usunięto plik main i dodano testy jednostkowe.
