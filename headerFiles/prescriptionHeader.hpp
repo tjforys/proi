@@ -5,7 +5,6 @@
 using std::string;
 using std::vector;
 
-void hello();
 
 class Medication{
     string name;
@@ -22,6 +21,7 @@ public:
     void setActiveSubstanceContent(int);
     void setPriceInGr(int);
     void setMedication(string, int ,int);
+    
 friend bool operator==(const Medication& lhs, const Medication& rhs){
     return (lhs.name == rhs.name and lhs.active_substance_content == rhs.active_substance_content and lhs.price_in_gr == rhs.price_in_gr);
 }

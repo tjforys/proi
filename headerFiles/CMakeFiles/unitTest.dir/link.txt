@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o CMakeFiles/unitTest.dir/dateHeader.cpp.o CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o CMakeFiles/unitTest.dir/prescriptionHeader.cpp.o -o unitTest  /usr/local/lib/libgtest.a -lgtest_main -lpthread 

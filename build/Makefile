@@ -117,19 +117,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
 # Target rules for targets named unitTest
 
 # Build rule for target.
@@ -195,7 +182,6 @@ headerFiles/dateHeader.o: headerFiles/dateHeader.cpp.o
 
 # target to build an object file
 headerFiles/dateHeader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o
 .PHONY : headerFiles/dateHeader.cpp.o
 
@@ -204,7 +190,6 @@ headerFiles/dateHeader.i: headerFiles/dateHeader.cpp.i
 
 # target to preprocess a source file
 headerFiles/dateHeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/dateHeader.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.i
 .PHONY : headerFiles/dateHeader.cpp.i
 
@@ -213,7 +198,6 @@ headerFiles/dateHeader.s: headerFiles/dateHeader.cpp.s
 
 # target to generate assembly for a file
 headerFiles/dateHeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/dateHeader.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.s
 .PHONY : headerFiles/dateHeader.cpp.s
 
@@ -222,7 +206,6 @@ headerFiles/prescriptionHeader.o: headerFiles/prescriptionHeader.cpp.o
 
 # target to build an object file
 headerFiles/prescriptionHeader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o
 .PHONY : headerFiles/prescriptionHeader.cpp.o
 
@@ -231,7 +214,6 @@ headerFiles/prescriptionHeader.i: headerFiles/prescriptionHeader.cpp.i
 
 # target to preprocess a source file
 headerFiles/prescriptionHeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.i
 .PHONY : headerFiles/prescriptionHeader.cpp.i
 
@@ -240,33 +222,8 @@ headerFiles/prescriptionHeader.s: headerFiles/prescriptionHeader.cpp.s
 
 # target to generate assembly for a file
 headerFiles/prescriptionHeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.s
 .PHONY : headerFiles/prescriptionHeader.cpp.s
-
-main.o: main.cpp.o
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -276,7 +233,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... unitTest"
 	@echo "... UnitTests/dateTest.o"
 	@echo "... UnitTests/dateTest.i"
@@ -290,9 +246,6 @@ help:
 	@echo "... headerFiles/prescriptionHeader.o"
 	@echo "... headerFiles/prescriptionHeader.i"
 	@echo "... headerFiles/prescriptionHeader.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

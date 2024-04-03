@@ -37,6 +37,7 @@ public:
 
     //other
     void displayDate() const;
+
 friend bool operator==(const Date& lhs, const Date& rhs){
     return (lhs.day == rhs.day and lhs.month == rhs.month and lhs.year == rhs.year);
 }

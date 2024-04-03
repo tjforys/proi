@@ -1,6 +1,7 @@
 #include "gtest/gtest.h"
 #include "../headerFiles/prescriptionHeader.hpp"
 using std::invalid_argument;
+
 TEST(medicationTest, invalidInitTest){
     EXPECT_THROW({
        Medication test_med = Medication("Example Drug", 1000, -50);

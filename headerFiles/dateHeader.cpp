@@ -13,7 +13,7 @@ Date::Date(int inputDay, Months inputMonth, int inputYear) {
     else {
         throw std::invalid_argument("invalid initial date");
     }
-};
+}
 
 
 unsigned int Date::getDay() const {
@@ -51,6 +51,7 @@ bool Date::isValidDate(int inputDay, Months inputMonth, int inputYear) const{
     }
     return true;
 }
+
 
 void Date::setDay(int inputDay) {
     if (isValidDate(inputDay, getMonth(), getYear()))
