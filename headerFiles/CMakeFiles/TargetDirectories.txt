@@ -1,0 +1,3 @@
+/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/CMakeFiles/unitTest.dir
+/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/CMakeFiles/edit_cache.dir
+/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/CMakeFiles/rebuild_cache.dir
