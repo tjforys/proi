@@ -83,19 +83,19 @@ CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/UnitTests/dateTest.cpp -o CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.s
 
-CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o: CMakeFiles/unitTest.dir/flags.make
-CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o: ../headerFiles/dateHeader.cpp
-CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o: CMakeFiles/unitTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o -MF CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o.d -o CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp
+CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o: CMakeFiles/unitTest.dir/flags.make
+CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o: ../headerFiles/Date.cpp
+CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o: CMakeFiles/unitTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o -MF CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o.d -o CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp
 
-CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp > CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.i
+CMakeFiles/unitTest.dir/headerFiles/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitTest.dir/headerFiles/Date.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp > CMakeFiles/unitTest.dir/headerFiles/Date.cpp.i
 
-CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp -o CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.s
+CMakeFiles/unitTest.dir/headerFiles/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitTest.dir/headerFiles/Date.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp -o CMakeFiles/unitTest.dir/headerFiles/Date.cpp.s
 
 CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o: CMakeFiles/unitTest.dir/flags.make
 CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o: ../UnitTests/prescriptionTest.cpp
@@ -111,34 +111,34 @@ CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/UnitTests/prescriptionTest.cpp -o CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.s
 
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: CMakeFiles/unitTest.dir/flags.make
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/prescriptionHeader.cpp
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: CMakeFiles/unitTest.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o -MF CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o.d -o CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: CMakeFiles/unitTest.dir/flags.make
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: ../headerFiles/Prescription.cpp
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: CMakeFiles/unitTest.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o -MF CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o.d -o CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp
 
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp > CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.i
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp > CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.i
 
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp -o CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.s
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp -o CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.s
 
 # Object files for target unitTest
 unitTest_OBJECTS = \
 "CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o" \
-"CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o" \
+"CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o" \
 "CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o" \
-"CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o"
+"CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o"
 
 # External object files for target unitTest
 unitTest_EXTERNAL_OBJECTS =
 
 unitTest: CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o
-unitTest: CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o
+unitTest: CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o
 unitTest: CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o
-unitTest: CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o
+unitTest: CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o
 unitTest: CMakeFiles/unitTest.dir/build.make
 unitTest: /usr/local/lib/libgtest.a
 unitTest: CMakeFiles/unitTest.dir/link.txt

@@ -1,7 +1,7 @@
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: \
- /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp \
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: \
+ /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp \
  /usr/include/stdc-predef.h \
- /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.hpp \
+ /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -135,7 +135,7 @@ CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
  /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/nested_exception.h \
- /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.hpp \
+ /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.hpp \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \

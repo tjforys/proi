@@ -10,8 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/UnitTests/dateTest.cpp" "CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o" "gcc" "CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o.d"
   "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/UnitTests/prescriptionTest.cpp" "CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o" "gcc" "CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o.d"
-  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp" "CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o" "gcc" "CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o.d"
-  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp" "CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o" "gcc" "CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o.d"
+  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp" "CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o" "gcc" "CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o.d"
+  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp" "CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o" "gcc" "CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o.d"
   )
 
 # Targets to which this target links.

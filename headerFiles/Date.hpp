@@ -14,11 +14,13 @@ enum class Months {
     December
 };
 
+bool isValidDate(int, Months, int);
+
+bool isLeapYear(int);
+
 class Date {
     unsigned int day, year;
     Months month;
-    bool isValidDate(int, Months, int) const;
-    bool isLeapYear(int) const;
 public:
     //constructor
     Date(int, Months,int);

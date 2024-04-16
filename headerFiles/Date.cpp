@@ -1,5 +1,6 @@
 #include <iostream>
-#include "dateHeader.hpp"
+#include <stdexcept>
+#include "Date.hpp"
 
 using std::cout;
 using std::endl;
@@ -31,12 +32,12 @@ unsigned int Date::getYear() const {
 }
 
 
-bool Date::isLeapYear(int inputYear) const{
+bool isLeapYear(int inputYear) {
     return (inputYear % 400 == 0 or (inputYear % 100 != 0 and inputYear % 4 == 0));
 }
 
 
-bool Date::isValidDate(int inputDay, Months inputMonth, int inputYear) const{
+bool isValidDate(int inputDay, Months inputMonth, int inputYear) {
     if (inputDay<1 or inputDay>31)
         return false;
     if (inputYear < 0)
@@ -44,7 +45,7 @@ bool Date::isValidDate(int inputDay, Months inputMonth, int inputYear) const{
     if (inputMonth == Months::April or inputMonth == Months::June or inputMonth == Months::September or inputMonth == Months::November)
         return !(inputDay > 30);
     if (inputMonth == Months::February) {
-        if (Date::isLeapYear(inputYear))
+        if (isLeapYear(inputYear))
             return !(inputDay > 29);
         else
             return !(inputDay > 28);

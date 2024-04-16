@@ -257,4 +257,4 @@ CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o: \
  /usr/local/include/gtest/gtest-typed-test.h \
  /usr/local/include/gtest/gtest_pred_impl.h \
  /usr/local/include/gtest/gtest_prod.h \
- /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/UnitTests/../headerFiles/dateHeader.hpp
+ /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/UnitTests/../headerFiles/Date.hpp

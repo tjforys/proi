@@ -177,53 +177,53 @@ UnitTests/prescriptionTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.s
 .PHONY : UnitTests/prescriptionTest.cpp.s
 
-headerFiles/dateHeader.o: headerFiles/dateHeader.cpp.o
-.PHONY : headerFiles/dateHeader.o
+headerFiles/Date.o: headerFiles/Date.cpp.o
+.PHONY : headerFiles/Date.o
 
 # target to build an object file
-headerFiles/dateHeader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o
-.PHONY : headerFiles/dateHeader.cpp.o
+headerFiles/Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o
+.PHONY : headerFiles/Date.cpp.o
 
-headerFiles/dateHeader.i: headerFiles/dateHeader.cpp.i
-.PHONY : headerFiles/dateHeader.i
+headerFiles/Date.i: headerFiles/Date.cpp.i
+.PHONY : headerFiles/Date.i
 
 # target to preprocess a source file
-headerFiles/dateHeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.i
-.PHONY : headerFiles/dateHeader.cpp.i
+headerFiles/Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Date.cpp.i
+.PHONY : headerFiles/Date.cpp.i
 
-headerFiles/dateHeader.s: headerFiles/dateHeader.cpp.s
-.PHONY : headerFiles/dateHeader.s
+headerFiles/Date.s: headerFiles/Date.cpp.s
+.PHONY : headerFiles/Date.s
 
 # target to generate assembly for a file
-headerFiles/dateHeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.s
-.PHONY : headerFiles/dateHeader.cpp.s
+headerFiles/Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Date.cpp.s
+.PHONY : headerFiles/Date.cpp.s
 
-headerFiles/prescriptionHeader.o: headerFiles/prescriptionHeader.cpp.o
-.PHONY : headerFiles/prescriptionHeader.o
+headerFiles/Prescription.o: headerFiles/Prescription.cpp.o
+.PHONY : headerFiles/Prescription.o
 
 # target to build an object file
-headerFiles/prescriptionHeader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o
-.PHONY : headerFiles/prescriptionHeader.cpp.o
+headerFiles/Prescription.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o
+.PHONY : headerFiles/Prescription.cpp.o
 
-headerFiles/prescriptionHeader.i: headerFiles/prescriptionHeader.cpp.i
-.PHONY : headerFiles/prescriptionHeader.i
+headerFiles/Prescription.i: headerFiles/Prescription.cpp.i
+.PHONY : headerFiles/Prescription.i
 
 # target to preprocess a source file
-headerFiles/prescriptionHeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.i
-.PHONY : headerFiles/prescriptionHeader.cpp.i
+headerFiles/Prescription.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.i
+.PHONY : headerFiles/Prescription.cpp.i
 
-headerFiles/prescriptionHeader.s: headerFiles/prescriptionHeader.cpp.s
-.PHONY : headerFiles/prescriptionHeader.s
+headerFiles/Prescription.s: headerFiles/Prescription.cpp.s
+.PHONY : headerFiles/Prescription.s
 
 # target to generate assembly for a file
-headerFiles/prescriptionHeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.s
-.PHONY : headerFiles/prescriptionHeader.cpp.s
+headerFiles/Prescription.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.s
+.PHONY : headerFiles/Prescription.cpp.s
 
 # Help Target
 help:
@@ -240,12 +240,12 @@ help:
 	@echo "... UnitTests/prescriptionTest.o"
 	@echo "... UnitTests/prescriptionTest.i"
 	@echo "... UnitTests/prescriptionTest.s"
-	@echo "... headerFiles/dateHeader.o"
-	@echo "... headerFiles/dateHeader.i"
-	@echo "... headerFiles/dateHeader.s"
-	@echo "... headerFiles/prescriptionHeader.o"
-	@echo "... headerFiles/prescriptionHeader.i"
-	@echo "... headerFiles/prescriptionHeader.s"
+	@echo "... headerFiles/Date.o"
+	@echo "... headerFiles/Date.i"
+	@echo "... headerFiles/Date.s"
+	@echo "... headerFiles/Prescription.o"
+	@echo "... headerFiles/Prescription.i"
+	@echo "... headerFiles/Prescription.s"
 .PHONY : help
 
 

@@ -320,7 +320,7 @@ CMakeFiles/unitTest.dir/UnitTests/dateTest.cpp.o: ../UnitTests/dateTest.cpp \
   /usr/local/include/gtest/gtest-typed-test.h \
   /usr/local/include/gtest/gtest_pred_impl.h \
   /usr/local/include/gtest/gtest_prod.h \
-  ../headerFiles/dateHeader.hpp
+  ../headerFiles/Date.hpp
 
 CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o: ../UnitTests/prescriptionTest.cpp \
   /usr/include/stdc-predef.h \
@@ -641,10 +641,10 @@ CMakeFiles/unitTest.dir/UnitTests/prescriptionTest.cpp.o: ../UnitTests/prescript
   /usr/local/include/gtest/gtest-typed-test.h \
   /usr/local/include/gtest/gtest_pred_impl.h \
   /usr/local/include/gtest/gtest_prod.h \
-  ../headerFiles/prescriptionHeader.hpp \
-  ../headerFiles/dateHeader.hpp
+  ../headerFiles/Prescription.hpp \
+  ../headerFiles/Date.hpp
 
-CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o: ../headerFiles/dateHeader.cpp \
+CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o: ../headerFiles/Date.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/c++/11/iostream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -821,11 +821,11 @@ CMakeFiles/unitTest.dir/headerFiles/dateHeader.cpp.o: ../headerFiles/dateHeader.
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../headerFiles/dateHeader.hpp
+  ../headerFiles/Date.hpp
 
-CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/prescriptionHeader.cpp \
+CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: ../headerFiles/Prescription.cpp \
   /usr/include/stdc-predef.h \
-  ../headerFiles/prescriptionHeader.hpp \
+  ../headerFiles/Prescription.hpp \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -977,21 +977,21 @@ CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/pre
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
-  ../headerFiles/dateHeader.hpp \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/ios \
+  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception_ptr.h \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
   /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/nested_exception.h \
+  ../headerFiles/Date.hpp \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
   /usr/include/c++/11/bits/ios_base.h \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
   /usr/include/c++/11/system_error \
   /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/bits/basic_ios.h \
@@ -1009,9 +1009,11 @@ CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/pre
   /usr/include/c++/11/bits/istream.tcc
 
 
-../headerFiles/dateHeader.cpp:
+../headerFiles/Prescription.cpp:
 
-../headerFiles/dateHeader.hpp:
+../headerFiles/Date.cpp:
+
+../headerFiles/Prescription.hpp:
 
 /usr/local/include/gtest/gtest_prod.h:
 
@@ -1064,8 +1066,6 @@ CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/pre
 /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
-../headerFiles/prescriptionHeader.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
@@ -1417,8 +1417,6 @@ CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/pre
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
-../headerFiles/prescriptionHeader.cpp:
-
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -1474,6 +1472,8 @@ CMakeFiles/unitTest.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/pre
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/11/bits/charconv.h:
+
+../headerFiles/Date.hpp:
 
 /usr/include/c++/11/bits/functional_hash.h:
 

@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../headerFiles/dateHeader.hpp"
+#include "../headerFiles/Date.hpp"
 #include <sstream>
 using std::invalid_argument;
 
