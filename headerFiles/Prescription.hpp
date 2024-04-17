@@ -47,6 +47,13 @@ struct Doctor{
     std::string doctorSurname;
 };
 
+
+struct Pharmacist{
+    std::string name;
+    std::string surname;
+    Time timeToCompleteReceipt;
+};
+
 class Prescription{
     unsigned int prescriptionNumber;
     Date issueDate;
@@ -76,3 +83,5 @@ public:
     void removeMedicationRecord(int);
     json returnPrescriptionJson();
 };
+
+void writePrescriptionListJson(Pharmacist, Date, Time, std::vector<Prescription>, std::ofstream);

@@ -452,6 +452,10 @@ CMakeFiles/main.dir/headerFiles/Prescription.cpp.o
  /usr/include/c++/11/bits/locale_facets_nonio.tcc
  /usr/include/c++/11/bits/locale_conv.h
  /usr/include/c++/11/iostream
+ /usr/include/c++/11/fstream
+ /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
+ /usr/include/c++/11/bits/fstream.tcc
 
 CMakeFiles/main.dir/main.cpp.o
  /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/main.cpp
@@ -728,4 +732,6 @@ CMakeFiles/main.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
  /usr/include/c++/11/bits/fstream.tcc
+ /usr/include/c++/11/sstream
+ /usr/include/c++/11/bits/sstream.tcc
 

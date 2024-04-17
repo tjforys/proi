@@ -99,3 +99,115 @@ TEST(testDate, displayDateTest)
     EXPECT_EQ(oss.str(), "The date is 23/2/2005\n" );
     std::cout.rdbuf(cout_buffer);
 }
+
+
+TEST(testDate, dateToStringTest)
+{
+    Date test_date = Date(23, Months(2), 2005);
+    EXPECT_EQ(test_date.dateToString(), "23/2/2005");
+}
+
+
+TEST(testTime, validTimeTest)
+{
+    Time time(22, 10, 10);
+    EXPECT_EQ(time.hours, 22);
+    EXPECT_EQ(time.minutes, 10);
+    EXPECT_EQ(time.seconds, 10);
+}
+
+
+TEST(testTime, invalidTimeTest)
+{
+    EXPECT_THROW({
+        Time time(1,2,-1);
+    }, invalid_argument);
+    EXPECT_THROW({
+        Time time(25, 2, 1);
+    }, invalid_argument);
+    EXPECT_THROW({
+        Time time(23, 60, 1);
+    }, invalid_argument);
+    EXPECT_THROW({
+        Time time(23, 2, 60);
+    }, invalid_argument);
+}
+
+
+TEST(testTime, noShiftAddTimeTest)
+{
+    Date date(23, Months(2), 2005);
+    Time time(12, 10, 10);
+    date = time.addTime(date, Time(1, 2, 3));
+    EXPECT_EQ(time.hours, 13);
+    EXPECT_EQ(time.minutes, 12);
+    EXPECT_EQ(time.seconds, 13);
+    EXPECT_EQ(date, Date(23, Months(2), 2005));
+}
+
+
+TEST(testTime, secondShiftAddTimeTest)
+{
+    Date date(23, Months(2), 2005);
+    Time time(12, 10, 10);
+    date = time.addTime(date, Time(1, 2, 59));
+    EXPECT_EQ(time.hours, 13);
+    EXPECT_EQ(time.minutes, 13);
+    EXPECT_EQ(time.seconds, 9);
+    EXPECT_EQ(date, Date(23, Months(2), 2005));
+
+}
+
+
+TEST(testTime, minuteShiftAddTimeTest)
+{
+    Date date(23, Months(2), 2005);
+    Time time(12, 10, 10);
+    date = time.addTime(date, Time(1, 59, 2));
+    EXPECT_EQ(time.hours, 14);
+    EXPECT_EQ(time.minutes, 9);
+    EXPECT_EQ(time.seconds, 12);
+    EXPECT_EQ(date, Date(23, Months(2), 2005));
+}
+
+
+TEST(testTime, hourShiftAddTimeTest)
+{
+    Date date(23, Months(2), 2005);
+    Time time(12, 10, 10);
+    date = time.addTime(date, Time(14, 2, 2));
+    EXPECT_EQ(time.hours, 2);
+    EXPECT_EQ(time.minutes, 12);
+    EXPECT_EQ(time.seconds, 12);
+    EXPECT_EQ(date, Date(24, Months(2), 2005));
+}
+
+
+TEST(testTime, dayShiftAddTimeTest)
+{
+    Date date(28, Months(2), 2005);
+    Time time(12, 10, 10);
+    date = time.addTime(date, Time(14, 2, 2));
+    EXPECT_EQ(time.hours, 2);
+    EXPECT_EQ(time.minutes, 12);
+    EXPECT_EQ(time.seconds, 12);
+    EXPECT_EQ(date, Date(1, Months(3), 2005));
+}
+
+
+TEST(testTime, monthShiftAddTimeTest)
+{
+    Date date(31, Months(12), 2005);
+    Time time(12, 10, 10);
+    date = time.addTime(date, Time(14, 2, 2));
+    EXPECT_EQ(time.hours, 2);
+    EXPECT_EQ(time.minutes, 12);
+    EXPECT_EQ(time.seconds, 12);
+    EXPECT_EQ(date, Date(1, Months(1), 2006));
+}
+
+
+TEST(testTime, timeToStringTest){
+    Time time(12, 10, 10);
+    EXPECT_EQ(time.timeToString(), "12:10:10");
+}

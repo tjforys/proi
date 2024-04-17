@@ -3,6 +3,8 @@
 #include <iostream>
 #include <stdexcept>
 #include <map>
+#include <fstream>
+
 //Medication class
 Medication::Medication(std::string medName, int subContent, int price){
     name = medName;
@@ -181,6 +183,7 @@ void Prescription::removeMedicationRecord(int index){
 json Prescription::returnPrescriptionJson(){
     json data;
     data["prescriptionNumber"] = prescriptionNumber;
+    data["issueDate"] = issueDate.dateToString();
     data["doctor"] = json{{"name", doctor.doctorName}, {"surname", doctor.doctorSurname}};
     data["patient"] = json{{"name", patient.patientName},{"surname", patient.patientSurname}, {"pesel", patient.patientPesel}};
     data["medicationList"] = json::array();
@@ -190,4 +193,30 @@ json Prescription::returnPrescriptionJson(){
          {"priceInGr", x.getPriceInGr()}});
     }
     return data;
+}
+
+
+void writePrescriptionListJson(Pharmacist pharmacist, Date date, Time initialTime, std::vector<Prescription> prescriptionList, std::ofstream file){
+    json data = json::array();
+    for(auto prescription:prescriptionList){
+        data.push_back(json{
+            {"realisingPharmacist", json{{"name", pharmacist.name}, {"surname", pharmacist.surname}}},
+            {"realiseTime", date.dateToString() + " " + initialTime.timeToString()},
+            {"prescription", prescription.returnPrescriptionJson()}
+        }
+            );
+        date = std::move(initialTime.addTime(date, pharmacist.timeToCompleteReceipt));
+    }
+    file << std::setw(4) << data << std::endl;
+}
+
+std::string timeToString(Date date, Time time){
+    std::string hours_str = std::to_string(time.hours);
+    std::string minutes_str = std::to_string(time.minutes);
+    std::string seconds_str = std::to_string(time.seconds);
+    if (hours_str.length() == 1) hours_str = "0" + std::move(hours_str);
+    if (minutes_str.length() == 1) minutes_str = "0" + std::move(minutes_str);
+    if (seconds_str.length() == 1) seconds_str = "0" + std::move(seconds_str);
+
+    return hours_str +":" + minutes_str + ":"+ seconds_str;
 }

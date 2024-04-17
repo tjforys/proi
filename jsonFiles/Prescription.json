@@ -1,27 +1,25 @@
 {
-    "prescription": {
-        "doctor": {
-            "name": "Jan",
-            "surname": "Kowalski"
-        },
-        "medicationList": [
-            {
-                "activeSubstanceContent": 130,
-                "name": "Apap",
-                "priceInGr": 2650
-            },
-            {
-                "activeSubstanceContent": 360,
-                "name": "Ibuprofen",
-                "priceInGr": 1024
-            }
-        ],
-        "patient": {
-            "name": "Jacek",
-            "pesel": 123456789,
-            "surname": "Nowak"
-        },
-        "prescriptionNumber": 345
+    "doctor": {
+        "name": "Jan",
+        "surname": "Kowalski"
     },
-    "test": "test"
+    "issueDate": "25/2/2004",
+    "medicationList": [
+        {
+            "activeSubstanceContent": 130,
+            "name": "Apap",
+            "priceInGr": 2650
+        },
+        {
+            "activeSubstanceContent": 360,
+            "name": "Ibuprofen",
+            "priceInGr": 1024
+        }
+    ],
+    "patient": {
+        "name": "Jacek",
+        "pesel": 123456789,
+        "surname": "Nowak"
+    },
+    "prescriptionNumber": 345
 }

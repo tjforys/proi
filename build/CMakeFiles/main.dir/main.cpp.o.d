@@ -216,4 +216,5 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/11/bits/locale_conv.h /usr/include/c++/11/fstream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
- /usr/include/c++/11/bits/fstream.tcc
+ /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
+ /usr/include/c++/11/bits/sstream.tcc

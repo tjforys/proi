@@ -130,3 +130,19 @@ TEST(prescriptionTest, removeRecordTest){
     test_prescription.removeMedicationRecord(0);
     EXPECT_EQ(vector<Medication>{}, test_prescription.getMedicationList());
 }
+
+
+TEST(prescriptionTest, returnJsonTest){
+    Prescription test_prescription = Prescription(345, Date(25, Months(2), 2004), Doctor{"Jan", "Kowalski"}, Patient{"Jacek", "Nowak", 123456789}, std::vector<Medication>{Medication("Apap", 130, 2650)});
+    json data = test_prescription.returnPrescriptionJson();
+    EXPECT_EQ(data["issueDate"], "25/2/2004");
+    EXPECT_EQ(data["doctor"]["name"], "Jan");
+    EXPECT_EQ(data["doctor"]["surname"], "Kowalski");    
+    EXPECT_EQ(data["patient"]["name"], "Jacek");
+    EXPECT_EQ(data["patient"]["surname"], "Nowak");
+    EXPECT_EQ(data["patient"]["pesel"], 123456789);    
+    EXPECT_EQ(data["medicationList"][0]["name"], "Apap");  
+    EXPECT_EQ(data["medicationList"][0]["priceInGr"], 2650);
+    EXPECT_EQ(data["medicationList"][0]["activeSubstanceContent"], 130);
+    EXPECT_EQ(data["prescriptionNumber"], 345);
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "prescription": {
+            "doctor": {
+                "name": "Jan",
+                "surname": "Kowalski"
+            },
+            "issueDate": "25/2/2004",
+            "medicationList": [
+                {
+                    "activeSubstanceContent": 130,
+                    "name": "Apap",
+                    "priceInGr": 2650
+                },
+                {
+                    "activeSubstanceContent": 360,
+                    "name": "Ibuprofen",
+                    "priceInGr": 1024
+                }
+            ],
+            "patient": {
+                "name": "Jacek",
+                "pesel": 123456789,
+                "surname": "Nowak"
+            },
+            "prescriptionNumber": 345
+        },
+        "realiseTime": "31/12/2004 23:59:00",
+        "realisingPharmacist": {
+            "name": "Anna",
+            "surname": "Kowalczyk"
+        }
+    },
+    {
+        "prescription": {
+            "doctor": {
+                "name": "Julian",
+                "surname": "Nowak"
+            },
+            "issueDate": "25/2/2004",
+            "medicationList": [
+                {
+                    "activeSubstanceContent": 200,
+                    "name": "Apap",
+                    "priceInGr": 400
+                },
+                {
+                    "activeSubstanceContent": 400,
+                    "name": "Ibuprofen",
+                    "priceInGr": 2048
+                }
+            ],
+            "patient": {
+                "name": "Nikodem",
+                "pesel": 987654321,
+                "surname": "Kowalski"
+            },
+            "prescriptionNumber": 346
+        },
+        "realiseTime": "1/1/2005 00:00:30",
+        "realisingPharmacist": {
+            "name": "Anna",
+            "surname": "Kowalczyk"
+        }
+    },
+    {
+        "prescription": {
+            "doctor": {
+                "name": "Michal",
+                "surname": "Wisniewski"
+            },
+            "issueDate": "25/2/2004",
+            "medicationList": [
+                {
+                    "activeSubstanceContent": 100,
+                    "name": "Rutinoscorbin",
+                    "priceInGr": 1000
+                },
+                {
+                    "activeSubstanceContent": 500,
+                    "name": "Vitamn D",
+                    "priceInGr": 500
+                }
+            ],
+            "patient": {
+                "name": "Jakub",
+                "pesel": 987654321,
+                "surname": "Wojcik"
+            },
+            "prescriptionNumber": 347
+        },
+        "realiseTime": "1/1/2005 00:02:00",
+        "realisingPharmacist": {
+            "name": "Anna",
+            "surname": "Kowalczyk"
+        }
+    }
+]

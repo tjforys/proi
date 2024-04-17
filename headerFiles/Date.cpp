@@ -90,5 +90,40 @@ void Date::setDate(int inputDay, Months inputMonth,int inputYear) {
 
 
 void Date::displayDate() const{
-    cout << "The date is " << getDay() << "/" << static_cast<int>(getMonth()) << "/" << getYear() << endl;
+    cout << "The date is " << dateToString() << endl;
+}
+
+
+std::string Date::dateToString() const{
+    return std::to_string(day) + "/" + std::to_string(static_cast<int>(getMonth())) + "/" + std::to_string(year);
+}
+
+
+Date Time::addTime(Date date, Time time){
+    hours += time.hours;
+        minutes += time.minutes;
+        seconds += time.seconds;
+        if (seconds>59) {minutes++; seconds-= 60;}
+        if (minutes>59) {hours++; minutes-=60;}
+        if (hours>23) {
+        hours-=24;
+        if (isValidDate(date.getDay()+1, date.getMonth(), date.getYear())){
+            return Date(date.getDay()+1, date.getMonth(), date.getYear());
+        }
+        if (date.getMonth() == Months(12)) return Date(1, Months(1), date.getYear()+1);
+        else return Date(1, Months(static_cast<int>(date.getMonth())+1), date.getYear());
+        }
+        return date;
+}
+
+
+std::string Time::timeToString(){
+    std::string hours_str = std::to_string(hours);
+    std::string minutes_str = std::to_string(minutes);
+    std::string seconds_str = std::to_string(seconds);
+    if (hours_str.length() == 1) hours_str = "0" + std::move(hours_str);
+    if (minutes_str.length() == 1) minutes_str = "0" + std::move(minutes_str);
+    if (seconds_str.length() == 1) seconds_str = "0" + std::move(seconds_str);
+
+    return hours_str +":" + minutes_str + ":"+ seconds_str;
 }
