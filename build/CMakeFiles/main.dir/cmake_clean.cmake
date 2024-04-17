@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o"
-  "CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o.d"
-  "CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o"
-  "CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o.d"
+  "CMakeFiles/main.dir/headerFiles/Date.cpp.o"
+  "CMakeFiles/main.dir/headerFiles/Date.cpp.o.d"
+  "CMakeFiles/main.dir/headerFiles/Prescription.cpp.o"
+  "CMakeFiles/main.dir/headerFiles/Prescription.cpp.o.d"
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
   "main"

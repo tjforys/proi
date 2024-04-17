@@ -3,8 +3,9 @@
 #include <vector>
 #include <stdexcept>
 #include "Date.hpp"
+#include "../nlohmann/json.hpp"
 
-
+using json = nlohmann::json;
 
 class Medication{
     std::string name;
@@ -73,4 +74,5 @@ public:
     //other
     void addMedicationRecord(Medication);
     void removeMedicationRecord(int);
+    json returnPrescriptionJson();
 };

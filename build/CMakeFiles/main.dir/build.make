@@ -83,46 +83,46 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
-CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o: ../headerFiles/dateHeader.cpp
-CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o -MF CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o.d -o CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp
+CMakeFiles/main.dir/headerFiles/Date.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/headerFiles/Date.cpp.o: ../headerFiles/Date.cpp
+CMakeFiles/main.dir/headerFiles/Date.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/headerFiles/Date.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/headerFiles/Date.cpp.o -MF CMakeFiles/main.dir/headerFiles/Date.cpp.o.d -o CMakeFiles/main.dir/headerFiles/Date.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp
 
-CMakeFiles/main.dir/headerFiles/dateHeader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/headerFiles/dateHeader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp > CMakeFiles/main.dir/headerFiles/dateHeader.cpp.i
+CMakeFiles/main.dir/headerFiles/Date.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/headerFiles/Date.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp > CMakeFiles/main.dir/headerFiles/Date.cpp.i
 
-CMakeFiles/main.dir/headerFiles/dateHeader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/headerFiles/dateHeader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp -o CMakeFiles/main.dir/headerFiles/dateHeader.cpp.s
+CMakeFiles/main.dir/headerFiles/Date.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/headerFiles/Date.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp -o CMakeFiles/main.dir/headerFiles/Date.cpp.s
 
-CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o: ../headerFiles/prescriptionHeader.cpp
-CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o -MF CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o.d -o CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp
+CMakeFiles/main.dir/headerFiles/Prescription.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/headerFiles/Prescription.cpp.o: ../headerFiles/Prescription.cpp
+CMakeFiles/main.dir/headerFiles/Prescription.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/headerFiles/Prescription.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/headerFiles/Prescription.cpp.o -MF CMakeFiles/main.dir/headerFiles/Prescription.cpp.o.d -o CMakeFiles/main.dir/headerFiles/Prescription.cpp.o -c /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp
 
-CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp > CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.i
+CMakeFiles/main.dir/headerFiles/Prescription.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/headerFiles/Prescription.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp > CMakeFiles/main.dir/headerFiles/Prescription.cpp.i
 
-CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp -o CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.s
+CMakeFiles/main.dir/headerFiles/Prescription.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/headerFiles/Prescription.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp -o CMakeFiles/main.dir/headerFiles/Prescription.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
-"CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o" \
-"CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o"
+"CMakeFiles/main.dir/headerFiles/Date.cpp.o" \
+"CMakeFiles/main.dir/headerFiles/Prescription.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
-main: CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o
-main: CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o
+main: CMakeFiles/main.dir/headerFiles/Date.cpp.o
+main: CMakeFiles/main.dir/headerFiles/Prescription.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main"

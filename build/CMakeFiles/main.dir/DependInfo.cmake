@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/dateHeader.cpp" "CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o" "gcc" "CMakeFiles/main.dir/headerFiles/dateHeader.cpp.o.d"
-  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/prescriptionHeader.cpp" "CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o" "gcc" "CMakeFiles/main.dir/headerFiles/prescriptionHeader.cpp.o.d"
+  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Date.cpp" "CMakeFiles/main.dir/headerFiles/Date.cpp.o" "gcc" "CMakeFiles/main.dir/headerFiles/Date.cpp.o.d"
+  "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp" "CMakeFiles/main.dir/headerFiles/Prescription.cpp.o" "gcc" "CMakeFiles/main.dir/headerFiles/Prescription.cpp.o.d"
   "/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/main.cpp" "CMakeFiles/main.dir/main.cpp.o" "gcc" "CMakeFiles/main.dir/main.cpp.o.d"
   )
 

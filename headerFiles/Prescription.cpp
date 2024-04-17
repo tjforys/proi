@@ -2,7 +2,7 @@
 #include "Date.hpp"
 #include <iostream>
 #include <stdexcept>
-
+#include <map>
 //Medication class
 Medication::Medication(std::string medName, int subContent, int price){
     name = medName;
@@ -175,4 +175,19 @@ void Prescription::addMedicationRecord(Medication newMedication){
 
 void Prescription::removeMedicationRecord(int index){
     medicationList.erase(medicationList.begin()+index);
+}
+
+
+json Prescription::returnPrescriptionJson(){
+    json data;
+    data["prescriptionNumber"] = prescriptionNumber;
+    data["doctor"] = json{{"name", doctor.doctorName}, {"surname", doctor.doctorSurname}};
+    data["patient"] = json{{"name", patient.patientName},{"surname", patient.patientSurname}, {"pesel", patient.patientPesel}};
+    data["medicationList"] = json::array();
+    for(auto x: medicationList){
+        data["medicationList"].push_back(json{{"name", x.getName()},
+         {"activeSubstanceContent", x.getActiveSubstaneContent()},
+         {"priceInGr", x.getPriceInGr()}});
+    }
+    return data;
 }

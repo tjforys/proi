@@ -129,6 +129,19 @@ unitTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/build
 .PHONY : unitTest/fast
 
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
 UnitTests/dateTest.o: UnitTests/dateTest.cpp.o
 .PHONY : UnitTests/dateTest.o
 
@@ -183,6 +196,7 @@ headerFiles/Date.o: headerFiles/Date.cpp.o
 # target to build an object file
 headerFiles/Date.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Date.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/Date.cpp.o
 .PHONY : headerFiles/Date.cpp.o
 
 headerFiles/Date.i: headerFiles/Date.cpp.i
@@ -191,6 +205,7 @@ headerFiles/Date.i: headerFiles/Date.cpp.i
 # target to preprocess a source file
 headerFiles/Date.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Date.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/Date.cpp.i
 .PHONY : headerFiles/Date.cpp.i
 
 headerFiles/Date.s: headerFiles/Date.cpp.s
@@ -199,6 +214,7 @@ headerFiles/Date.s: headerFiles/Date.cpp.s
 # target to generate assembly for a file
 headerFiles/Date.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Date.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/Date.cpp.s
 .PHONY : headerFiles/Date.cpp.s
 
 headerFiles/Prescription.o: headerFiles/Prescription.cpp.o
@@ -207,6 +223,7 @@ headerFiles/Prescription.o: headerFiles/Prescription.cpp.o
 # target to build an object file
 headerFiles/Prescription.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/Prescription.cpp.o
 .PHONY : headerFiles/Prescription.cpp.o
 
 headerFiles/Prescription.i: headerFiles/Prescription.cpp.i
@@ -215,6 +232,7 @@ headerFiles/Prescription.i: headerFiles/Prescription.cpp.i
 # target to preprocess a source file
 headerFiles/Prescription.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/Prescription.cpp.i
 .PHONY : headerFiles/Prescription.cpp.i
 
 headerFiles/Prescription.s: headerFiles/Prescription.cpp.s
@@ -223,7 +241,32 @@ headerFiles/Prescription.s: headerFiles/Prescription.cpp.s
 # target to generate assembly for a file
 headerFiles/Prescription.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitTest.dir/build.make CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/headerFiles/Prescription.cpp.s
 .PHONY : headerFiles/Prescription.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -233,6 +276,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... main"
 	@echo "... unitTest"
 	@echo "... UnitTests/dateTest.o"
 	@echo "... UnitTests/dateTest.i"
@@ -246,6 +290,9 @@ help:
 	@echo "... headerFiles/Prescription.o"
 	@echo "... headerFiles/Prescription.i"
 	@echo "... headerFiles/Prescription.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: \
+CMakeFiles/main.dir/headerFiles/Prescription.cpp.o: \
  /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.cpp \
  /usr/include/stdc-predef.h \
  /home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles/Prescription.hpp \
@@ -215,6 +215,4 @@ CMakeFiles/unitTest.dir/headerFiles/Prescription.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
  /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/iostream
+ /usr/include/c++/11/bits/locale_conv.h /usr/include/c++/11/iostream

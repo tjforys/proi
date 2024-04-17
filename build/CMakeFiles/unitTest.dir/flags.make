@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles
+CXX_INCLUDES = -I/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/headerFiles -I/home/tforys/c++/proi_zad1/tomasz_forys_proi24l/nlohmann
 
 CXX_FLAGS = -std=gnu++14
 
